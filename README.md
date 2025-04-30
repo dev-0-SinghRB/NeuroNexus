@@ -1,4 +1,5 @@
-## README
+## LANDING PAGE
+This project displays :
 - Internship assignment.
-- This project displays a landing page.
-- It has been build using pure HTML and CSS only
+- Landing page for gathering employee details.
+- It has been build using pure HTML and CSS only.
