@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <h1>Contact Information Form</h1>
+        </div>
+
+        <form>
+            <div class="form-content">
+                <div class="form-section">
+                    <label for="fullName" class="required">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+
+                <div class="form-section">
+                    <label for="contactNumber" class="required">Contact Number</label>
+                    <input type="tel" id="contactNumber" name="contactNumber" required>
+                </div>
+
+                <div class="form-section">
+                    <label for="address" class="required">Address</label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+
+                <div class="form-section">
+                    <label for="companyName" class="required">Company Name</label>
+                    <input type="text" id="companyName" name="companyName" required>
+                </div>
+
+                <div class="form-section">
+                    <label for="emailAddress" class="required">Email Address</label>
+                    <input type="email" id="emailAddress" name="emailAddress" required>
+                </div>
+
+                <div class="form-section">
+                    <label for="department" class="required">Department</label>
+                    <select id="department" name="department" required>
+                        <option value="" disabled selected>Choose a department</option>
+                        <option value="HR">HR</option>
+                        <option value="Sales">Sales</option>
+                        <option value="Development">Development</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+
+                <div class="form-section">
+                    <label class="required">Gender</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="male" name="gender" value="Male" required>
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="preferNotToSay" name="gender" value="Prefer not to say">
+                            <label for="preferNotToSay">Prefer not to say</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-footer">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
